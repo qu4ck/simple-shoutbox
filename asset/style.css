@@ -1,0 +1,17 @@
+body, table, input, select, textarea { font: 11px/20px Tahoma, sans-serif; }
+#wrap{width:200px;margin:10px auto;}
+.hidden{display:none;}
+a { color: #095085; }
+h4 { font-size: 18px; }
+input, textarea { padding: 3px; border: 1px solid #999; }
+td { padding: 1px; }
+#listdata { background-color: #FFFDE5; border: 1px solid #ADA979; padding: 4px; width: 200px; height: 200px; overflow: auto; margin-bottom: 20px; }
+.data-row { padding: 3px 0; border-bottom: 1px dashed #ADA979; line-height: 15px; }
+.data-row .tgl { font-size: 9px; color: red; }
+.data-row .nama { font-weight: bold; }
+.table{width:200px;}
+.admin{display:block;width:200px;text-align:right;text-decoration:none;}
+.del{position:absolute;right:5px;top:0;background:url(delete.png) no-repeat;width:16px;height:16px;}
+.group_list{position:relative;}
+input.text_input{width:150px;}
+textarea.textarea{width:150px;}

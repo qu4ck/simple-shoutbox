@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>isoweb Shoutbox</title>
+        <link href="asset/style.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="asset/jquery.js"></script>
+        <script type="text/javascript" src="asset/isoweb-dev.js"></script>
+    </head>
+    <body>
+        <div id="wrap">
+            <a href="#" class="admin" id="admin">Admin</a>
+            <a href="#" class="admin" id="logout">Logout</a>
+            
+            <div id="listdata"></div>  
+            <div id="msg"></div>
+            <form id="frm_shoutbox" method="post" action="">
+                <table class="table">
+                    <tr>
+                        <td>Nama</td>
+                        <td><input name="nama" id="nama" class="text_input" type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td>Website</td>
+                        <td><input name="url" id="url" class="text_input" type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td>Message</td>
+                        <td><textarea name="pesan" id="pesan" class="textarea" cols="22" rows="2"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Submit" />
+                            <input type="reset" value="Reset" />
+                            <span id="loading" class="hidden"><img src="asset/loading.gif" alt="loading..." /></span>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <form id="frm_login" name="frm_login" method="post" action="" class="hidden">
+                <table class="table">
+                    <tr>
+                        <td>Username</td>
+                        <td><input name="username" id="username" type="text" class="text_input" /></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input name="password" id="password" type="password" class="text_input" /></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Submit" />
+                            <input type="reset" value="Cancel" id="cancel" />
+                            <span id="loading" class="hidden"><img src="asset/loading.gif" alt="loading..." /></span>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            Keterangan :
+<dl style="font-size:11px;color:#999;">
+<dt>Khusus untuk URL boleh di kosongi atau isi dengan format lengkap Misal http://www.iso.web.id</dt>
+</dl>
+        </div>
+    </body>
+</html>
