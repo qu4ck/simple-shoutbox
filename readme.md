@@ -1,1 +1,1 @@
-simple shoutbox visit article http://bit.ly/TKeYbZ
+jquery simple shoutbox visit article http://bit.ly/TKeYbZ
